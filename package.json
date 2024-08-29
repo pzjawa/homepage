@@ -1,0 +1,35 @@
+{
+  "name": "learn_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@iconify-icons/fa6-solid": "^1.2.13",
+    "@iconify-icons/tabler": "^1.2.95",
+    "@iconify/react": "^5.0.2",
+    "@next/font": "^14.2.7",
+    "next": "14.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.2",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.6",
+    "eslint-plugin-import": "^2.29.1",
+    "postcss": "^8.4.41",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
+  }
+}
