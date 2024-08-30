@@ -33,7 +33,7 @@ function Social() {
 
 export default function Home() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center space-y-[50px] bg-white dark:bg-slate-800 font-sans">
+    <div className="flex h-screen flex-col items-center justify-center space-y-[50px] bg-white dark:bg-slate-800">
       <div className="flex flex-col space-x-5 md:flex-row">
         <div className="relative mx-auto">
           <Image className="size-36 rounded-full" src={Avatar} alt="avatar" />
