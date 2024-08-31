@@ -11,19 +11,23 @@ import bilibili from "@iconify-icons/tabler/brand-bilibili";
 function Social() {
   return (
     <div className="flex flex-row flex-wrap items-center justify-center space-x-5 md:space-x-8">
-      <Button
+      <Button 
+        title="blog"
         href="https://blog.pzjawa.us.kg/"
         icon={blog}
       ></Button>
       <Button
+        title="github"
         href="https://github.com/pzjawa"
         icon={github}
       ></Button>
       <Button
+        title="mail"
         href="mailto:pzjawa@qq.com"
         icon={mail}
       ></Button>
       <Button
+        title="bilibili"
         href="https://space.bilibili.com/1919386217"
         icon={bilibili}
       ></Button>
