@@ -6,7 +6,7 @@ export default function Mark({
   children: React.ReactNode;
 }>) {
   return (
-    <mark className="rounded-lg bg-mark_blue p-1 dark:bg-dark_mark_blue dark:text-mark_blue">
+    <mark className="rounded-lg bg-mark_blue p-1 text-white dark:bg-dark_mark_blue dark:text-mark_blue">
       {children}
     </mark>
   );

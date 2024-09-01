@@ -13,11 +13,14 @@ export function Button(props: ButtonProps) {
   const { href, icon, label } = props;
 
   return (
-    <a href={href} className="relative inline-block group">
-      <button title={title} className="rounded-lg bg-yellow-100 px-2 py-2 hover:bg-blue-100 dark:bg-button_bg dark:hover:bg-hover_button_bg">
+    <a href={href} className="group relative inline-block">
+      <button
+        title={title}
+        className="rounded-lg bg-white/30 px-2 py-2 backdrop-blur"
+      >
         <Icon icon={icon} width={25} height={25} />
       </button>
-      <span className="absolute left-1/2 -translate-x-1/2 mt-12 px-2 py-1 text-sm text-gray-700 bg-white border border-gray-300 rounded-md transition-opacity opacity-0 group-hover:opacity-100">
+      <span className="absolute left-1/2 mt-12 -translate-x-1/2 rounded-md border border-gray-500/30 bg-white/30 px-2 py-1 text-sm text-black opacity-0 backdrop-blur transition-opacity group-hover:opacity-100 dark:text-white">
         {label}
       </span>
     </a>

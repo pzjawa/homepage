@@ -13,8 +13,10 @@ const config: Config = {
         dark_mark_blue: "#cedae9",
         dot_yellow: "#e3ab57",
         typed_text: "#93b5cf",
-        button_bg: "#fffef8",
-        hover_button_bg: "#93d5dc",
+      },
+      backgroundImage: {
+        background: "url(./background.png)",
+        background_mobile: "url(./background_mobile.png)",
       },
     },
   },
