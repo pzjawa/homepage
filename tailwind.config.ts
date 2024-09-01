@@ -16,7 +16,9 @@ const config: Config = {
       },
       backgroundImage: {
         background: "url(./background.png)",
-        background_mobile: "url(./background_mobile.png)",
+      },
+      backgroundSize: {
+        "70%": "70%",
       },
     },
   },

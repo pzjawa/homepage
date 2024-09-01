@@ -41,7 +41,7 @@ function Social() {
 
 export default function Home() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center space-y-[50px] bg-blue-100 bg-background_mobile bg-auto bg-right-bottom bg-no-repeat md:bg-background dark:bg-slate-800">
+    <div className="flex h-screen flex-col items-center justify-center space-y-[50px] bg-blue-100 md:bg-auto bg-right-bottom bg-70% bg-no-repeat bg-background dark:bg-slate-800">
       <div className="flex flex-col space-x-5 md:flex-row">
         <div className="relative mx-auto">
           <Image
