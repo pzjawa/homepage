@@ -15,7 +15,7 @@ const config: Config = {
         typed_text: "#93b5cf",
       },
       backgroundImage: {
-        background: "url(./background.png)",
+        background: "url(./background.webp)",
       },
       backgroundSize: {
         "70%": "70%",
