@@ -1,6 +1,11 @@
 import "./globals.css";
 import Footer from "./components/Footer";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
+
+const misans = localFont({
+  src: "./MiSans-Medium.woff2"
+});
 
 export const metadata: Metadata = {
   title: "pzjawa",
@@ -14,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body>
+      <body className={misans.className}>
         <main>{children}</main>
         <Footer />
       </body>
