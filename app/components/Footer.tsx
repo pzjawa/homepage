@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+export default function Footer() {
   const currentYear = new Date().getFullYear();
   const startYear = 2024;
   const displayYear = currentYear > startYear ? `– ${currentYear}` : "";
@@ -15,6 +15,4 @@ const Footer = () => {
       </span>
     </footer>
   );
-};
-
-export default Footer;
+}

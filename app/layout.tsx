@@ -1,10 +1,10 @@
-import "./globals.css";
-import Footer from "./components/Footer";
+import "@/app/globals.css";
+import Footer from "@/app/components/Footer";
 import localFont from "next/font/local";
 import type { Metadata } from "next";
 
 const misans = localFont({
-  src: "./MiSans-Medium.woff2"
+  src: "./fonts/MiSans-Medium.woff2"
 });
 
 export const metadata: Metadata = {

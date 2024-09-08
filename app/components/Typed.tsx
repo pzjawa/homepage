@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import Typed from "typed.js";
+import TypedJS from "typed.js";
 
-interface TypedTextProps {
+interface TypedProps {
   text: string;
 }
 
-const TypedText: React.FC<TypedTextProps> = ({ text }) => {
+export default function Typed({ text }: TypedProps) {
   const typedElement = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const TypedText: React.FC<TypedTextProps> = ({ text }) => {
         showCursor: false,
       };
 
-      const typed = new Typed(typedElement.current, options);
+      const typed = new TypedJS(typedElement.current, options);
 
       return () => {
         typed.destroy();
@@ -41,6 +41,4 @@ const TypedText: React.FC<TypedTextProps> = ({ text }) => {
       />
     </div>
   );
-};
-
-export default TypedText;
+}

@@ -9,11 +9,11 @@ export interface ButtonProps {
   icon: IconifyIcon;
 }
 
-export function Button(props: ButtonProps) {
+export default function Button(props: ButtonProps) {
   const { href, icon, label } = props;
 
   return (
-    <a href={href} className="group relative inline-block">
+    <a href={href} target="_blank" className="group relative inline-block">
       <button
         title={title}
         className="rounded-lg bg-white/30 px-2 py-2 backdrop-blur"
