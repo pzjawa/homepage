@@ -31,14 +31,9 @@ export default function Typed({ text }: TypedProps) {
   }, [text]);
 
   return (
-    <div className="relative mt-3.5 text-xl text-gray-700">
-      <div className="absolute inset-0">
-        <div className="h-full w-full" />
-      </div>
-      <div
-        className="absolute inset-0 flex items-start justify-start dark:text-typed_text"
-        ref={typedElement}
-      />
-    </div>
+    <div
+      className="mt-3.5 flex h-1 w-40 items-start justify-start text-lg text-gray-700 dark:text-typed_text"
+      ref={typedElement}
+    />
   );
 }
