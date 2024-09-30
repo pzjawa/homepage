@@ -6,7 +6,7 @@ import Typed from "@/app/components/Typed";
 
 export default function Home() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center space-y-10 bg-blue-100 bg-background bg-70% bg-right-bottom bg-no-repeat md:bg-auto dark:bg-slate-800">
+    <div className="flex h-screen flex-col items-center justify-center space-y-10 bg-blue-100 bg-mio bg-70% bg-right-bottom bg-no-repeat md:bg-auto dark:bg-slate-800">
       <div className="flex flex-col space-x-5 md:flex-row">
         <div className="relative mx-auto">
           <Image

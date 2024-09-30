@@ -4,7 +4,8 @@ import localFont from "next/font/local";
 import type { Metadata } from "next";
 
 const misans = localFont({
-  src: "./fonts/MiSans-Medium.woff2"
+  src: "./fonts/misans.woff2",
+  variable: "--font-misans",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body className={misans.className}>
+      <body className={`${misans.variable} font-sans`}>
         <main>{children}</main>
         <Footer />
       </body>
