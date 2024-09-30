@@ -10,7 +10,7 @@ export default function Social() {
       <Button
         title="Blog"
         label="Blog"
-        href="https://blog.pzjawa.us.kg/"
+        href="https://blog.pzj.us.kg/"
         icon={Blog}
       ></Button>
       <Button
